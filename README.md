@@ -1,6 +1,6 @@
-# node-login-easy-example
+# Node.JS login example
 
-A simple login in Node.js
+A simple login with Node.js, uses ExpressJS and SailsJs.
 
 <p align="center">
 <img src="./assets/screenshot.png" />
