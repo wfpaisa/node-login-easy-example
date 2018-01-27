@@ -1,0 +1,32 @@
+{
+  "name": "login-express",
+  "version": "1.0.0",
+  "description": "Simple login with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./node_modules/nodemon/bin/nodemon.js ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wfpaisa/node-login-easy-example.git"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "javascript",
+    "databases"
+  ],
+  "author": "@wfpaisa",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/wfpaisa/node-login-easy-example/issues"
+  },
+  "homepage": "https://github.com/wfpaisa/node-login-easy-example#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
+}

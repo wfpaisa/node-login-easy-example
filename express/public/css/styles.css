@@ -1,0 +1,21 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body{font-family: 'Roboto', sans-serif; color:#2b2b2b;}
+
+
+/* Form */
+    form{background:rgba(0,0,0,0.04); border:1px solid #FFF; margin:100px auto; width: 300px; padding:15px; box-shadow: 0px 0px 8px rgba(0,0,0,0.3);}
+
+    form h1{text-align: center; margin: 10px 0 30px 0;}
+
+    form .linkpassword {text-align: right; font-size: 80%;}
+    form .linkpassword a{color:#2A91FA; text-align: right;}
+
+    form input{border:1px solid #ccc; background: #FFF; color:#000; padding:5px 10px; width: 100%; margin:5px 0px;}
+
+    form button{border:none;background: #2A91FA; border:1px solid #198bfd; color: #FFF; padding:8px 10px; width: 100%; margin:5px 0; box-shadow: 0px 2px 2px rgba(0,0,0,0.2);}
+    form button:hover{background:rgb(64, 157, 250); cursor: pointer;}
+
+    /* Mesages */
+        .msg{background: #FFF; padding:5px 15px; margin:10px 0px; display: none;}
+        .msg.error{border:1px dashed #ff5959; color:#ff5959;}
